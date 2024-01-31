@@ -39,6 +39,15 @@
     span {
       font-weight: 300;
     }
+    .imgContainer {
+      display: flex;
+      gap: 30px;
+
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
   }
 
   .formContainer {

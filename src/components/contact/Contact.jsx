@@ -68,6 +68,14 @@ const Contact = () => {
           <h2>Phone</h2>
           <span>+55 47 99623-5145</span>
         </motion.div>
+        <div className="imgContainer">
+          <a href="https://www.instagram.com/thomasalemao.wav/">
+            <img src="/instagram.png" alt="" />
+          </a>
+          <a href="https://wa.me/5547996235145">
+            <img src="/whatsapp.png" alt="" />
+          </a>
+        </div>
       </motion.div>
       <div className="formContainer">
         <motion.div
