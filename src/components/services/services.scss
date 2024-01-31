@@ -19,6 +19,28 @@
       flex-direction: column;
     }
 
+    // Tablet styles
+    @include tablet {
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 30px;
+
+      p {
+        font-size: 22px;
+      }
+    }
+    @media (min-width: 1025px) {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      gap: 40px;
+
+      p {
+        font-size: 24px;
+      }
+    }
+
     p {
       font-weight: 200;
       font-size: 20px;
