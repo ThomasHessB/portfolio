@@ -72,9 +72,14 @@ const Hero = () => {
       >
         Front-end Web Developer
       </motion.div>
-      <div className="imageContainer">
+      <motion.div
+        className="imageContainer"
+        variants={textVariants}
+        initial="initial"
+        animate="animate"
+      >
         <img src="/herosmall.png" alt="" />
-      </div>
+      </motion.div>
     </div>
   );
 };
