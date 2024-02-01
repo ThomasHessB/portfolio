@@ -77,11 +77,12 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgrey", color: "black" }}
         >
-          <h2>CSS3</h2>
+          <h2>Framer Motion</h2>
           <p>
-            I create visually stunning and responsive designs, utilizing
-            advanced CSS3 techniques to ensure websites are both aesthetically
-            pleasing and highly functional across various devices and platforms.
+            Specializing in Framer Motion, I create fluid, engaging animations
+            and interactive UI elements that enhance user experience, utilizing
+            this powerful library to bring motion design to life in web
+            applications with elegance and efficiency.
           </p>
           <button>Go</button>
         </motion.div>
@@ -91,8 +92,8 @@ const Services = () => {
         >
           <h2>Libraries</h2>
           <p>
-            As a web developer proficient in DaisyUI, I excel in crafting
-            modern, visually appealing interfaces with this UI library, while my
+            Proficient in TailwindCSS and DaisyUI, I excel in crafting modern,
+            visually appealing interfaces with these UI libraries, while my
             adaptability and eagerness to learn enable me to quickly master new
             libraries and technologies to meet diverse project needs.
           </p>
