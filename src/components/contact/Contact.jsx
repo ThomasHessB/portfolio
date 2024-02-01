@@ -62,7 +62,7 @@ const Contact = () => {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>Rua Alfonso Souza e Silva - Blumenau-SC</span>
+          <span>Rua Alfonso Souza e Silva, 244 - Blumenau-SC - Brazil</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
